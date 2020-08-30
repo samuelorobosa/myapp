@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Functionality = ({deleteTask,completeTask}) => {
     return (
         <div>
-            <a href="#" onClick={deleteTask}><FontAwesomeIcon icon={faTrashAlt}/></a>
-            <a href="#" onClick={completeTask}><FontAwesomeIcon icon={faCheckCircle}/></a>
+            <button onClick={deleteTask}><FontAwesomeIcon icon={faTrashAlt}/></button>
+            <button onClick={completeTask}><FontAwesomeIcon icon={faCheckCircle}/></button>
         </div>
    )
 }
